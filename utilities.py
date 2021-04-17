@@ -14,7 +14,7 @@ import random
 
 #fold_dir = '../../LIFE_Codes/kfold_data/'
 
-
+#- Important to save space ----#
 def combine_splits(data_dir):
 
 	data_files = sorted([x for x in os.listdir(data_dir) if x.endswith('.npy') and x.startswith('split_') and 'DATA' not in x])
